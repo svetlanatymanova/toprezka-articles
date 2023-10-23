@@ -1,0 +1,122 @@
+#ajaxLoader{width: 54px;height: 54px;padding: 11px;box-shadow: 0 2px 2px rgba(204, 204, 204, 0.7);-moz-box-shadow: 0 2px 6px rgba(150, 150, 150, 0.7);-webkit-box-shadow: 0 2px 2px rgba(204, 204, 204, 0.7);border-radius: 9px;-moz-border-radius: 9px;-webkit-border-radius: 9px;background-color: #FFF; }
+
+
+#message,  #error
+{
+    z-index: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-collapse: collapse;
+    background-color: #ffffff !important;
+    border-radius: 5px;
+text-align: center;
+font-weight: normal;
+margin-bottom: 15px;
+}
+
+#message i,  #error i { margin-right: 5px; }
+
+#message
+{
+    border: 1px solid #3a7e34;
+    color: #3a7e34;
+}
+
+#error
+{
+    border: 1px solid #c4272b;
+    color: #c4272b;
+}
+
+.form-item.has-danger input,
+.form-item.has-danger textarea,
+.option-item.has-danger input,
+.option-item.has-danger textarea {
+	border: 1px solid #c4272b;
+}
+
+
+.formblock { padding: 30px;  font-size: 16px;   max-width: 410px;  }
+
+.formblock label { font-size: 14px; }
+
+.formblock input[type=text], .formblock input[type=password] { width: 100%; padding: 8px; }
+
+.formblock input[type=checkbox] { width: auto; display: inline;  }
+
+.formblock button {  text-align: center;  }
+
+.formblock .form_label {  margin-top: 10px; margin-bottom: 10px;  }
+
+ 
+
+.formblock .form_label  #star { margin-left: 5px; color: #c4272b; }
+
+
+.formblock .form_table { width:  100%; max-width: 410px;  }
+
+.formblock .form_remember { padding-top: 15px; padding-bottom: 15px; }
+
+.formblock h1 { 
+font-weight: 300;
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
+
+.messagecart  h1 { 
+font-weight: 300;
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
+
+.messagecart p {
+margin-block-start: 2em;
+margin-block-end: 2em;
+}
+
+.messagecart p a { text-decoration: underline; }
+
+.messagecart p.buttons  a { text-decoration: none; }
+
+.messagecart p.buttons { margin-block-start: 3em;   }
+
+.messagecart, .messagecart h1, .messagecart p { text-align: center; }
+
+.personaltext { font-size: 12px; padding-bottom: 20px;  padding-top: 15px; }
+ 
+.personaltext a { color: #0373a7; }
+.field_accept_callback { color: #cccccc; font-size: 12px;  line-height: 15px; margin-bottom: 20px; }
+
+
+
+.h1_block_line {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 0px #f1f1f1; }
+
+.r-tabs-anchor {
+display: none;
+}
+
+.comments_block { display: none; }
+
+.comments_block.active-area { display: block; }
+
+
+
+.shop_cart_itog { border-top: 1px #ccc solid; border-left: 1px #ccc solid; margin-bottom: 40px; }
+
+.shop_cart_itog tr td, .shop_cart_itog tr th { border-bottom: 1px #ccc solid; border-right: 1px #ccc solid; padding: 10px; }
+
+
+.card-product-preview__btns { text-align: center; }
+
+.site-footer {
+margin-top: 50px;
+}

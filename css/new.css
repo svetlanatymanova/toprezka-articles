@@ -1,0 +1,128 @@
+.section-article__list {
+  margin-top: 30px;
+}
+
+.list-article {
+  display: flex;
+  gap: 30px 3%;
+  flex-wrap: wrap;
+}
+.list-article__article {
+  flex: 0 0 31.3333333333%;
+}
+@media (max-width: 992px) {
+  .list-article__article {
+    flex: 0 0 47%;
+  }
+}
+@media (max-width: 552px) {
+  .list-article__article {
+    flex: 1 1 auto;
+  }
+}
+
+.article {
+  border: 1px #eee solid;
+  background-color: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease 0s;
+}
+.article:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.article:hover .article__img {
+  padding: 0;
+  padding-bottom: 30px;
+}
+.article__img {
+  padding: 30px;
+  padding-bottom: 0;
+  transition: all 0.3s ease 0s;
+}
+.article__link {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 260px;
+}
+@media (max-width: 702px) {
+  .article__link {
+    height: 200px;
+  }
+}
+.article__link img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.article__content {
+  margin-top: 10px;
+  padding: 30px;
+  padding-top: 0;
+}
+.article__title {
+  font-size: 20px;
+  line-height: 130%;
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  border-bottom: 1px solid #ffffff;
+}
+@media (max-width: 767px) {
+  .article__title {
+    font-size: 16px;
+  }
+}
+.article__title:hover {
+  border-bottom: 1px solid #222;
+}
+.article__desc {
+  font-size: 16px;
+  color: #555555;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .article__desc {
+    font-size: 13px;
+  }
+}
+
+.section-article__pages {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.section-article__page {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #69a6ff;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  outline: none;
+}
+.section-article__page.active {
+  background-color: #3174da;
+}
+.section-article__page:hover {
+  background-color: #0a3f8f;
+}
+.section-article__page span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

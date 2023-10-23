@@ -1,0 +1,121 @@
+.g-button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: .5em 1.35714em;
+    cursor: pointer;
+    text-decoration: none !important;
+    border: .07143em solid rgba(0,0,0,0.1);
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    border-radius: .28571em;
+    outline: none;
+    box-shadow: 0 .07143em .07143em 0;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-appearance: button;
+    color: #fff !important;
+    background-color: #15c;
+    background-image: linear-gradient(-180deg, #3b7cef 0%, #15c 100%);
+}
+
+.g-button:hover {
+    color: #fff !important;
+    background: #15c;
+    box-shadow: 0 .07143em .07143em 0 rgba(0,0,0,0.2);
+}
+
+.g-button:active {
+    color: #fff !important;
+    background: #15c;
+    box-shadow: inset 0 .07143em .14286em 0 rgba(0,0,0,0.3);
+}
+
+.s3-cookie-message-wrap {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    bottom: 64px;
+    display: none;
+    justify-content: center;
+}
+
+.s3-cookie-message {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+    max-width: 1664px;
+    padding: 32px;
+    margin: 0 32px;
+}
+
+.s3-cookie-message .s3-cookie-message__text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    color: #212121;
+}
+
+.s3-cookie-message .s3-cookie-message__btn {
+    margin-left: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .s3-cookie-message-wrap {
+        bottom: 32px;
+    }
+
+    .s3-cookie-message {
+        padding: 24px;
+    }
+
+    .s3-cookie-message .s3-cookie-message__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .s3-cookie-message-wrap {
+        bottom: 24px;
+    }
+
+    .s3-cookie-message {
+        margin: 0 24px;
+        padding: 16px;
+    }
+
+    .s3-cookie-message .s3-cookie-message__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .s3-cookie-message .s3-cookie-message__btn {
+        margin-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .s3-cookie-message-wrap {
+        bottom: 16px;
+    }
+
+    .s3-cookie-message {
+        flex-direction: column;
+        align-items: end;
+        margin: 0 16px;
+    }
+
+    .s3-cookie-message .s3-cookie-message__text {
+        margin-bottom: 13px;
+    }
+}
